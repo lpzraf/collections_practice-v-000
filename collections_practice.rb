@@ -1,3 +1,4 @@
+require "pry"
 def sort_array_asc(array)
   array.sort 
 end
@@ -24,7 +25,18 @@ def swap_elements(array)
   array
 end
 
+def reverse_array(array)
+  array.reverse
+end
 
+def kesha_maker(array)
+  new_arr = array.each do |cash|
+  x = cash.split
+  cash[2] = "$"
+  x.join
+end
+new_arr
+end
 
 
 
