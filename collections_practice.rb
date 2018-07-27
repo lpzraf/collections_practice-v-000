@@ -49,7 +49,7 @@ end
 
 
 def add_s(array)
-  arrayeach.each_with_index.collect do |body_parts, index|
+  array.each_with_index.collect do |body_parts, index|
     binding.pry
   #   if index[1] << "s"
   # end
