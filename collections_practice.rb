@@ -46,15 +46,15 @@ def sum_array(array)
   array.inject(0){|sum,x| sum + x }
 end
 
-def add_s(array)
-  x = "feet"
-  array.each do |letter_s|
-    if letter_s.include?(x)
-       x.times{x = x.next}
-       next
-       elsif
-    letter_s << "s"
-  end
-  array
-end
-end
+# def add_s(array)
+#   x = "feet"
+#   array.each do |letter_s|
+#     if letter_s.include?(x)
+#       x.times{x = x.next}
+#       next
+#       elsif
+#     letter_s << "s"
+#   end
+#   array
+# end
+# end
