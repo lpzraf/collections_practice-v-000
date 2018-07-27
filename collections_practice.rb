@@ -47,8 +47,14 @@ def sum_array(array)
 end
 
 def add_s(array)
+  x = "feet"
   array.each do |letter_s|
+    if letter_s.include?(x)
+       x.times{x = x.next}
+       next
+       elsif
     letter_s << "s"
-    break if array == "feet"
   end
+  array
+end
 end
