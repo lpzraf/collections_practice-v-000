@@ -47,8 +47,12 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each do |letter_s|
-    letter_s << "s"
-    break if array == "feet"
+  array.each_with_index.collect do |body_part, index|
+    if index != 1 
+      body_part << "s"
+    else
+      body_part
+    end
   end
 end
+
