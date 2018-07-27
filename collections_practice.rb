@@ -51,7 +51,8 @@ end
 def add_s(array)
   array.each_with_index.collect do |body_parts, index|
     binding.pry
-  #   if index[1] << "s"
+  #   if index == 1 
+  body_parts."s"
   # end
   # array
 end
