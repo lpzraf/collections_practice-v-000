@@ -50,7 +50,7 @@ end
 
 def add_s(array)
   arrayeach.each_with_index.collect do |body_parts, index|
-    bindig.pry
+    binding.pry
   #   if index[1] << "s"
   # end
   # array
