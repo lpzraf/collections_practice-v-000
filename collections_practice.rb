@@ -60,8 +60,8 @@ end
 # end
 
 def add_s(array)
-  array.each do |letter_s|
-    letter_s << "s"
+  array.each do |body_parts|
+    body_parts << "s"
   end
   array
 end
