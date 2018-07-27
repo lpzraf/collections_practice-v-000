@@ -58,3 +58,11 @@ end
 #   array
 # end
 # end
+
+def add_s(array)
+  array.each do |letter_s|
+    letter_s << "s"
+  end
+  array
+end
+
