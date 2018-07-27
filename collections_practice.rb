@@ -46,23 +46,13 @@ def sum_array(array)
   array.inject(0){|sum,x| sum + x }
 end
 
-# def add_s(array)
-#   x = "feet"
-#   array.each do |letter_s|
-#     if letter_s.include?(x)
-#       x.times{x = x.next}
-#       next
-#       elsif
-#     letter_s << "s"
-#   end
-#   array
-# end
-# end
+
 
 def add_s(array)
-  arrayeach.each_with_index.map do |body_parts, index|
-    body_parts << "s"
-  end
-  array
+  arrayeach.each_with_index.collect do |body_parts, index|
+    bindig.pry
+  #   if index[1] << "s"
+  # end
+  # array
 end
 
