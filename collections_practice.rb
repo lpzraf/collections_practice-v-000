@@ -60,7 +60,7 @@ end
 # end
 
 def add_s(array)
-  array.each do |body_parts|
+  arrayeach.each_with_index.map do |body_parts, index|
     body_parts << "s"
   end
   array
